@@ -68,7 +68,6 @@ a::before {
   background: #2196f3;
 }
 
-
 /* прячем заголовок от пользователя, Google  видет заголовок */
 
 .visually-hdden {
@@ -84,11 +83,27 @@ a::before {
   margin: -1px;
 }
 
-/* :link{
-  text-decoration: none;
-} */
-/* main */
+.description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.description-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
-
-
-
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
