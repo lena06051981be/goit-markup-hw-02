@@ -161,6 +161,8 @@ h1[class="visually-hidden"] {
 
 /* footer */
 .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
