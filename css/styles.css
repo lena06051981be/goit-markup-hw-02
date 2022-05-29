@@ -189,9 +189,10 @@ h1[class="visually-hidden"] {
   border-radius: 4px;
   border: 1px solid #eeeeee;
 }
-
-ul.portfolio-btn-list li {
+.portfolio-btn-list{
   text-align: center;
+}
+ul.portfolio-btn-list li {
   display: inline-block;
 }
 .review {
