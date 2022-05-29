@@ -14,8 +14,7 @@ a::before {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
+  line-height: 31px;  
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -99,6 +98,7 @@ h1[class="visually-hidden"] {
   text-transform: uppercase;
   color: #212121;
 }
+
 .description-text {
   font-weight: 400;
   font-size: 14px;
