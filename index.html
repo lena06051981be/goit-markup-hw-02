@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/Flag_Ukr.ico" type="image/x-icon" />
-
+    <title>Студия</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,41 +17,53 @@
       ul {
         list-style-type: none; /* Убираем маркеры */
       }
+      a {
+        text-decoration: none; /* Убираем подчеркивание в ссылках  */
+      }
     </style>
-    <title>Студия</title>
   </head>
   <body>
     <!-- header -->
-    <header class="heder-link">
-      <nav class="heder-nav">
-        <a class="heder-logo" href="./index.html"><span>Web</span>Studio </a>
-        <ul class="heder-list list">
-          <li class="heder-item"><a href="heder-item">Студия</a></li>
-          <li class="heder-item"><a href="heder-item">Портфолио</a></li>
-          <li class="heder-item"><a href="heder-item">Контакты</a></li>
+    <header class="header-link">
+      <nav>
+        <a href class="header-logo" href="./index.html"
+          ><span class="header-logo-first">Web</span>Studio
+        </a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="header-item" class="header-item-link header-text">Студия</a>
+          </li>
+          <li class="header-item">
+            <a href="header-item" class="header-item-link header-text">Портфолио</a>
+          </li>
+          <li class="header-item">
+            <a href="header-item" class="header-item-link header-text">Контакты</a>
+          </li>
         </ul>
       </nav>
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com" title="E-mail"
+          <a href="mailto:info@devstudio.com" title="E-mail" class="header-link header-text"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+380961111111" title="Mobile phone">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" title="Mobile phone" class="header-link header-text"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
     <!-- main -->
-    <main class="main-link">
+    <main class="main-box">
       <section>
-        <h1 class="main-header" title="Эффективные решения для вашего бизнеса">
+        <h1 class="main" title="Эффективные решения для вашего бизнеса">
           Эффективные решения для вашего бизнеса
         </h1>
         <button class="main-btn" type="button">Заказать услугу</button>
       </section>
 
-      <section>
+      <section class="">
         <h2 class="visually-hidden">характеристики</h2>
         <ul>
           <li>
