@@ -8,6 +8,19 @@ a::before {
   color: brown;
 }
 
+:root {
+  --main-color: #212121;
+  --highlight-color: #2196f3;
+  --header-link-color: #757575;
+  --main-tittle-color: #ffffff;
+  --main-background-color: #2f303a;
+  --description-text-color: #757575;
+  --job-title-color: #757575;
+  --footer-background-color: #2f303a;
+  --footer-contact-color: #ffffff;  
+  --portfolio-speciality-color: #757575;
+}
+
 /* header */
 
 .header-logo {
@@ -32,10 +45,10 @@ a::before {
   letter-spacing: 0.02em;
 }
 .header-item-link {
-  color: #212121;
+  color: var(--main-color);
 }
 .header-link {
-  color: #757575;
+  color: var(--header-link-color);
 }
 
 .header-item-link:hover,
@@ -46,13 +59,13 @@ a::before {
 .contact-e:focus,
 .contact:hover,
 .contact:focus {
-  color: #2196f3;
+  color: var(--highlight-color);
 }
 .header-item-link:active,
 .header-link:active,
 .contact-e:active,
 .contact:active {
-  color: orange;
+  color: #ffa500;
 }
 
 /* main */
@@ -64,8 +77,8 @@ a::before {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
-  background: #2f303a;
+  color: var(--main-tittle-color);
+  background: var(--main-background-color);
 }
 .main-btn {
   font-weight: 700;
@@ -78,8 +91,8 @@ a::before {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--main-tittle-color);
+  background: var(--highlight-color);
 }
 
 button {
@@ -116,14 +129,14 @@ h1[class="visually-hidden"] {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .description-text {  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text-color);
 }
 
 .team {
@@ -132,18 +145,18 @@ h1[class="visually-hidden"] {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--main-color);
 }
 .job-title {
   font-size: 16px;
   line-height: 1.19;
-  color: #757575;
+  color: var(--job-title-color);
 }
 
 /* footer */
@@ -156,7 +169,7 @@ h1[class="visually-hidden"] {
   background: #2f303a;
 }
 .contacts {
-  background: #2f303a;
+  background: var(--footer-background-color);
   font-style: normal;
 }
 .contact {
@@ -164,7 +177,7 @@ h1[class="visually-hidden"] {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--footer-contact-color);
 }
 .contact-e {
   font-weight: 400;
@@ -200,11 +213,11 @@ ul.portfolio-btn-list li {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--main-color);
 }
 .speciality {  
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--portfolio-speciality-color);
 }
