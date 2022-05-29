@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #212121;
 }
 
 a::before {
@@ -14,7 +15,7 @@ a::before {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;  
+  line-height: 31px;
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -39,14 +40,19 @@ a::before {
 .header-item-link:hover,
 .header-item-link:focus,
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.contact-e:hover,
+.contact-e:focus,
+.contact:hover,
+.contact:focus {
   color: #2196f3;
 }
 .header-item-link:active,
-.header-link:active {
+.header-link:active,
+.contact-e:active,
+.contact:active {
   color: orange;
 }
-
 
 /* main */
 
@@ -72,6 +78,11 @@ a::before {
   border-radius: 4px;
   color: #ffffff;
   background: #2196f3;
+}
+
+.main-btn,
+button {
+  cursor: pointer;
 }
 
 /* прячем заголовок от пользователя, Google  видет заголовок */
@@ -169,14 +180,14 @@ h1[class="visually-hidden"] {
   border: 1px solid #eeeeee;
 }
 
-ul.portfolio-btn-list li{
+ul.portfolio-btn-list li {
   text-align: center;
   display: inline-block;
 }
 .review {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
