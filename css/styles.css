@@ -107,3 +107,44 @@ a::before {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.name{
+  font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #212121;
+}
+.job-title{
+  font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #757575;
+}
+.footer-logo{
+  font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background: #2f303a;
+
+}
+.contacts{
+background: #2f303a;
+font-style: normal
+}
+.contact
+  
+{
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.contact-e{
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
