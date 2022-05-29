@@ -38,9 +38,16 @@ a::before {
 }
 
 .header-item-link:hover,
-.header-link:hover {
+.header-item-link:focus,
+.header-link:hover,
+.header-link:focus {
   color: #2196f3;
 }
+.header-item-link:active,
+.header-link:active {
+  color: orange;
+}
+
 
 /* main */
 
