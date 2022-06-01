@@ -8,6 +8,7 @@ a::before {
   color: brown;
 }
 
+/* Переменные: цвета и прочее */
 :root {
   --main-color: #212121;
   --highlight-color: #2196f3;
