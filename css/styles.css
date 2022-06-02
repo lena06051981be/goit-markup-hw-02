@@ -63,15 +63,12 @@ ul {
 button {
   cursor: pointer;
 }
-body {
-  font-family: var(--main-font);
-}
 a {
   color: currentColor;
 }
-address {
+/* address {
   font-style: normal;
-}
+} */
 
 /* Переменные: цвета и прочее */
 :root {
