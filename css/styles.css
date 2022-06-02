@@ -3,10 +3,18 @@ body {
   color: #212121;
 }
 
-a::before {
+/* a::before {
   content: "♥️";
   color: brown;
+} */
+.container {
+width: 1200px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+outline: 1px solid red;
 }
+
 
 /* Переменные: цвета и прочее */
 :root {
@@ -107,7 +115,7 @@ a::before {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
+ 
 button {
   cursor: pointer;
 }
