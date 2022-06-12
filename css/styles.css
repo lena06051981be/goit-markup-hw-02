@@ -7,13 +7,13 @@ body {
   content: "♥️";
   color: brown;
 } */
-.container {
+/* .container {
 width: 1200px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
 outline: 1px solid red;
-}
+} */
 
 /* птички твиттер перед ссылками */
 a::before {  
@@ -47,7 +47,7 @@ a::before {
 }
 
  /* Сброс стилей / Reset styles */ 
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -60,12 +60,9 @@ ul {
   margin: 0;
   padding-left: 0;
 }
-button {
-  cursor: pointer;
-}
 a {
-  color: currentColor;
-}
+  color: currentColor; */
+
 /* address {
   font-style: normal;
 } */
