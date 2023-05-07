@@ -2,8 +2,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-
-.header-logo{
+         /* Heder */
+.header-logo,
+.footer-logo
+{
 font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -12,6 +14,39 @@ font-family: 'Raleway';
   letter-spacing: 0.03em;
   color: #000000;
 }
-.header-logo-first{
+.header-logo-first,
+.footer-logo-first{
   color: #2196F3;
+}
+.header-text{
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  
+  color: #212121;
+}
+.header-text{
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1,19;
+    letter-spacing: 0.02em;
+  
+    color: #212121;
+}
+.header-item-link:hover,
+.header-item-link:focus,
+.header-link:hover,
+.header-link:focus,
+.contact-e:hover,
+.contact-e:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--highlight-color);
+}
+
+.header-item-link:active,
+.header-link:active,
+.contact-e:active,
+.contact:active {
+  color: #ffa500;
 }
