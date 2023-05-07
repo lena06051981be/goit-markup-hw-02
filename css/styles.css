@@ -53,21 +53,21 @@ font-family: 'Raleway';
 
 /* main */
 .main-box{
-  
-    
-  
     background: #2F303A;
 }
 .main{
-  
-    
     font-size: 0.73;
     line-height: 60px;
-    
-  
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
   
     color: #FFFFFF;
+}
+.main-btn{
+  width: 216px;
+    height: 50px;
+    margin: 0 auto;
+      display: block;
+    
 }
