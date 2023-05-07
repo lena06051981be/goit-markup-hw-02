@@ -50,3 +50,24 @@ font-family: 'Raleway';
 .contact:active {
   color: #ffa500;
 }
+
+/* main */
+.main-box{
+  
+    
+  
+    background: #2F303A;
+}
+.main{
+  
+    
+    font-size: 0.73;
+    line-height: 60px;
+    
+  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+}
